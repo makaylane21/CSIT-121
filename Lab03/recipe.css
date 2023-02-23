@@ -1,0 +1,11 @@
+body { color: white; background-color: blueviolet; }
+p { font-family: Arial; }
+h3 { text-transform: uppercase; }
+ol { margin: 35px; }
+title{font-weight: bolder;}
+body { background-image: 
+url(Lab03/mayo.jpg);background-size:100px 80px; background-repeat:repeat-x; }
+img {
+	-webkit-box-reflect: right;
+	transform: rotate(5deg);
+}
