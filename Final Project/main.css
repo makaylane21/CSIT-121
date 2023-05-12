@@ -1,0 +1,96 @@
+li {
+  display: inline;
+}
+h1,h2,ul {
+  text-align: center;
+}
+#links {
+  text-align: center;
+}
+
+#strawberrybody, #peachbody, #caramelbody {
+  text-align: center;
+}
+
+table, th, td {
+  border: .5px solid;
+  padding: 15px;
+  text-align: left;
+}
+th, td{
+  padding: 15px;
+  text-align: left;
+}
+
+#nutritionstrawberry, #nutritionpeach, #nutritioncaramel{
+  float: left;
+  width: 40%;
+}
+#peachimage {
+  width:60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#strawimage {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+#caramelimage {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#descriptionstrawberry, #descriptionpeach, #descriptioncaramel {
+  float: right;
+  width: 40%;
+  border: 2px black;
+  padding: 50px;
+  margin: auto;
+}
+
+body { 
+  background-color:seagreen;
+  background-size:100px 80px; 
+  background-repeat: repeat-x;
+}
+
+form {
+  width: 40%;
+  float: left;
+}
+
+#drinkpreference {
+  width: 40%;
+  right: auto;
+  float: right;
+  text-align: center;
+}
+
+#links {
+   bottom: 0%;
+   position: fixed;
+   width: 100%;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+#sbuximage { 
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+@media screen and (max-width: 768px) {
+form {width: 100%}
+#drinkpreference {width: 100%}
+#sbuximage {width: 500px}
+#strawimage {width:768px;
+height:auto }
+#caramelimage {width: 1000%}
+#nutritionstrawberry, #nutritionpeach, #nutritioncaramel {width: 100%}
+#descriptionstrawberry, #descriptionpeach, #descriptioncaramel {width: 80%}}
